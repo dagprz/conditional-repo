@@ -23,7 +23,7 @@ function HelpArea() {
   return (
     <section data-testid="help-area" id="help-area">
       {HELP_ITEMS.map((item) => (
-        <HelpBox key={item.id} title={item.title} text={item.text} />
+        <HelpBox key={item.id} title={item.title} not text={item.text} />
       ))}
     </section>
   );

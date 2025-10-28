@@ -1,4 +1,4 @@
-import MainContent from './components/MainContent';
+import MainContent from './components/MainContentt';
 import logo from './assets/images/logo.png';
 
 function App() {
